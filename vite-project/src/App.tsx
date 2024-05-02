@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, {FC} from 'react'
+import Data from './assets/componenets/Data'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: FC = () => {
   return (
-    <>
-      
-    </>
+    <div style={{margin:"15px"}}>
+      <Data/>
+    </div>
   )
 }
 
 export default App
+
